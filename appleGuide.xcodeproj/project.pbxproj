@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0BB1F624034472008FB920 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0BB1F524034472008FB920 /* CircleImage.swift */; };
+		ED0BB1F824035A82008FB920 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0BB1F724035A82008FB920 /* MapView.swift */; };
 		EDD76D4423FF532200392335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD76D4323FF532200392335 /* AppDelegate.swift */; };
 		EDD76D4623FF532200392335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD76D4523FF532200392335 /* SceneDelegate.swift */; };
 		EDD76D4823FF532300392335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD76D4723FF532300392335 /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0BB1F524034472008FB920 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		ED0BB1F724035A82008FB920 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		EDD76D4023FF532200392335 /* appleGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD76D4323FF532200392335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDD76D4523FF532200392335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		EDD76D4223FF532200392335 /* appleGuide */ = {
 			isa = PBXGroup;
 			children = (
+				ED0BB1F524034472008FB920 /* CircleImage.swift */,
+				ED0BB1F724035A82008FB920 /* MapView.swift */,
 				EDD76D4323FF532200392335 /* AppDelegate.swift */,
 				EDD76D4523FF532200392335 /* SceneDelegate.swift */,
 				EDD76D4723FF532300392335 /* ContentView.swift */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD76D4423FF532200392335 /* AppDelegate.swift in Sources */,
+				ED0BB1F624034472008FB920 /* CircleImage.swift in Sources */,
+				ED0BB1F824035A82008FB920 /* MapView.swift in Sources */,
 				EDD76D4623FF532200392335 /* SceneDelegate.swift in Sources */,
 				EDD76D4823FF532300392335 /* ContentView.swift in Sources */,
 			);
@@ -286,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"appleGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = L8V6QS755Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = appleGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"appleGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = L8V6QS755Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = appleGuide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
